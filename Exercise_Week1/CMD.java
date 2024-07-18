@@ -1,4 +1,4 @@
-package Exercise_Week1;
+package De2_Cau2_TCP.Exercise_Week1;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -91,7 +91,7 @@ public class CMD {
 		String res = "";
 		if (param2.equals("..")) {
 			if (defaultDir.getParentFile() == null) {
-				res = "không chuyển được thư mục";
+				res = "Không chuyển được thư mục";
 			} else {
 				defaultDir = defaultDir.getParentFile();
 			}
