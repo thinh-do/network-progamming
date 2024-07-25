@@ -1,0 +1,21 @@
+hiện thực method pack(folder, ext, archiveFile): đóng gói những file có phần mở rộng ext trông thư mục
+ folder vào file archive
+
+hiện thực method unpack(archiveFile, extractFile, desFolder)
+sẽ tìm extractFile trong archiveFile(file nén) rồi bỏ vào desFolder
+
+//thông tin file
++số lượng file
++file size
++file name
++content
++position
+mỗi dòng trong header sẽ có 3 phần
++phần 1: 50 byte cho file name
++phân 2: size
++phần 3: position
+
+int Số lượng	|
+long position 8byte	|====>header
+50 byte namefile|
+long size 8 byte		|
