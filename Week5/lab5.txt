@@ -1,0 +1,17 @@
+Tra cứu thông tin sinh viên dùng mô hình client/server công nghệ RMI
+Student(id, name, year, score)
+user(username, pass) 
+2 giai đoạn:
+	+đăng nhập: dùng pop3
+		user
+		pass
+		exit
+	+tìm kiếm:
+		findName
+		findSocre
+		exit
+-Xử lý các tình huống ngoại lệ
+	+ lệnh không hợp lệ
+	+ lỗi CSDL
+- Phục vụ nhiều client độc lập với nhau
+- Thực hiện lệnh khi chưa login->báo lỗi
